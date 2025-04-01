@@ -144,7 +144,7 @@ while runing:
                 screen.blit(backup, (0, 0))
                 t1 = (sec_pos[0]-first_pos[0])/2
                 t2 = (sec_pos[1]-first_pos[1])/2
-                pygame.draw.polygon(screen, (red*2.55,green*2.55,blue*2.55),((first_pos[0],first_pos[1]+t2),(first_pos[0]+t1,first_pos[1]),(sec_pos[0],first_pos[1]+t2),(first      _pos[0]+t1,sec_pos[1])) )
+                pygame.draw.polygon(screen, (red*2.55,green*2.55,blue*2.55),((first_pos[0],first_pos[1]+t2),(first_pos[0]+t1,first_pos[1]),(sec_pos[0],first_pos[1]+t2),(first_pos[0]+t1,sec_pos[1])) )
             if pygame.MOUSEBUTTONUP == event.type:
                 q = True
 
